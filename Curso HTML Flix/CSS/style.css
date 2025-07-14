@@ -1,0 +1,56 @@
+table{
+    width: 50%;
+    border: 1px solid black;
+    overflow-wrap: normal;
+}
+caption{
+    caption-side: bottom;
+    font-family: Arial;
+    font-size: small;
+}
+th {
+    text-align: left;
+    font-family: Arial;
+
+}
+img {
+    max-width: 400px;
+    max-height: 500px;
+}
+.title {
+    text-align: center;
+    font-size: large;
+    font-family: Arial;
+}
+.btn-primary{
+    text-decoration: none;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin: 10px auto;
+    width: 150px;
+    border: 10px;
+}
+.btn-primary:hover {
+    background-color: rgba(255, 10, 10, 0,9);
+}
+.m-1 {
+    margin: 10px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.bg-y {
+    background-color: pink;
+}
+
+.bg-r {
+    background-color: seagreen;
+}
+.bg-n {
+    background-color: black;
+}
