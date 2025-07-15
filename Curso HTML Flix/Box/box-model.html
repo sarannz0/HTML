@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<body>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: powderblue;
+        }
+
+        .box-content {
+            border: 5px solid black;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            box-sizing: content-box;
+            outline: 1px dotted pink;
+        }
+
+        .box-sizing {
+            border: 5px dotted black;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: 5px solid pink;
+        
+        }
+
+    </style>
+
+    <div class="box-content">
+        <div class="box">
+            <h1 class="head"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+        </div>
+    </div>
+    <br>
+    <div class="box-sizing">
+        <div class="box">
+            <h1 class="head">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        </div>
+    </div>
+</body>
+</html>
