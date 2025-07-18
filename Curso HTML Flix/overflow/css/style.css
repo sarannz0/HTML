@@ -1,0 +1,66 @@
+.title {
+    text-align: center;
+    font-family: Arial;
+    color: #fa1111;
+}
+
+.container {
+box-sizing: border-box;
+width: 600px;
+/* height: 100px; */
+background-color: bisque;
+border: 5px solid blueviolet;
+padding: 10px 20px;
+overflow: clip;
+text-overflow: clip;
+white-space: nowrap;
+}
+
+.container:hover {
+overflow: auto;
+white-space: normal;
+max-height: 200px;
+}
+
+.box-px{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100px;
+    background-color: aqua;
+    overflow: hidden;
+}
+.box-in{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: violet;
+    width: 2in;
+}
+.box-cm{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: yellow;
+    width: 2.54cm;
+}
+.box-mm{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: violet;
+    width: 25.4mm;
+}
+.box-pt{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: burlywood;
+    width: 50pt;
+}
+.box-pc{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: saddlebrown;
+    width: 6pc;
+}

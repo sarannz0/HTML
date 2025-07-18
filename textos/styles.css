@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');)
+
+:root {
+    font-size: 18px;
+}
+
+
+* {
+font-family: 'Roboto' sans-serif;
+/* font-family: "Comic Sans MS" , cursive; */
+/* font-family: Helvetica, sans-serif;
+font-family: monospace;
+font-family: Arial, "Times New Roman", sans-serif;
+font-family: 'Courier New', monospace; */
+   
+}
+
+h1 {
+    font-family: 'Honk', sans-serif;
+}
+body {
+    font-size: 12px;
+    background-color: pink;
+    color: black;
+    background-image: url(./img/fotoooooooooo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center, top, bottom;
+    background-size: 20%, 30%, contain;
+}
+
+.p1 {
+    font-size: 16px;
+}
+
+.p2 { 
+    font-size: 1em;
+}
+
+.p3 {
+    font-size: 1rem;
+}
+
+.p4 {
+    font-size: 2%;
+}
+
+.p5 {
+    font-size: 1vw;
+}
+
+.p6 {
+    font-size: 1vh;
+}
+
+.item-1 {
+    font-size: xx-small;
+    font-weight: 100;
+}
+.item-2 {
+    font-size: x-small;
+    font-weight: 200;
+}
+.item-3 {
+    font-size: small;
+    font-weight: 300;
+}
+.item-4 {
+    font-size: medium;
+    font-weight: 400;
+}
+.item-5 {
+    font-size: large;
+    font-weight: 500;
+}
+.item-6 {
+    font-size: x-large;
+    font-weight: 600;
+}
+.item-7 {
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 700;
+}
+.item-8 {
+    font-size: smaller;
+    font-weight: 800;
+}
+.item-9 {
+    font-size: larger;
+    font-weight: 900;
+}
